@@ -23,9 +23,20 @@ Add youtube URLs to que
 > queadd https://youtu.be/cuuhsqA95iA
 ```
 
+Download all in que or single
+```sh
+> dl
+```
+
+
 #### Available Commands
+
 help - Displays this dialog.
+
 clear - Clears the console screen.
+
 exit - Exit the PyYTD application.
+
 queadd :link: - Add a link to download que.
+
 dl - Triggers the video downloader.
