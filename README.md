@@ -2,7 +2,7 @@ PyYTD - Python YouTube Downloader
 --------------
 *TODO:* Add codec / exntension decision (currently only supports MP3/M4A)
 <center>
-    ![Alt-Image](https://image.prntscr.com/image/csBedHDTQm2OEaoYIT93_Q.png)
+    ![Alt-Text](https://image.prntscr.com/image/csBedHDTQm2OEaoYIT93_Q.png)
 </center>
 
 #### Usage
