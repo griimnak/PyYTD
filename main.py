@@ -1,4 +1,8 @@
 import source
 
 if __name__ == '__main__':
-    source.query_inputs()
+    try:
+        source.query_inputs()
+    except KeyboardInterrupt:
+        print("\nThank you for using PyYTD.")
+        exit()

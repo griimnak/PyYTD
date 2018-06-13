@@ -8,12 +8,17 @@ class PyYTD:
 
     def download_video(self):
         ydl_opts = {
+            'writethumbnail': True,
             'format': 'bestaudio/best',
-            'postprocessors': [{
-                'key': 'FFmpegExtractAudio',
-                'preferredcodec': 'mp3',
-                'preferredquality': '192',
-            }],
+            'postprocessors': [
+                {
+                    'key': 'FFmpegExtractAudio',
+                    'preferredcodec': 'mp3',
+                    'preferredquality': '192',
+                },
+                {'key': 'FFmpegMetadata'},
+                {'key': 'EmbedThumbnail'}
+            ],
             'outtmpl': 'output/%(title)s.%(ext)s'
         }
         if self._link:

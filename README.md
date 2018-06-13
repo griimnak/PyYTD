@@ -18,13 +18,13 @@ Launch
 $ python main.py
 ```
 
-Add youtube URLs to que
+Add youtube URLs to queue
 
 ```sh
 > queadd https://youtu.be/cuuhsqA95iA
 ```
 
-Download all in que or single
+Download all in queue or single
 
 ```sh
 > dl
@@ -39,6 +39,6 @@ clear - Clears the console screen.
 
 exit - Exit the PyYTD application.
 
-queadd [link] - Add a link to download que.
+qadd [link] - Add a link to download que.
 
 dl - Triggers the video downloader.
