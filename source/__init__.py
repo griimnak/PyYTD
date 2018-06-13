@@ -67,7 +67,7 @@ def query_inputs():
         print(_pretty+ "help - Displays this dialog.")
         print(_pretty+ "clear - Clears the console screen.")
         print(_pretty+ "exit - Exit the PyYTD application.")
-        print(_pretty+ "qadd :link: - Add a link to download que.")
+        print(_pretty+ "qadd [link] - Add a link to download queue.")
         print(_pretty+ "dl - Triggers the video downloader.\n")
         query_inputs()
     elif _cmd == "clear":
